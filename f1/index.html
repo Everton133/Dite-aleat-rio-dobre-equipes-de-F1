@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(32, 32, 33);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: rgb(72, 72, 72);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            padding: 0 40px;
+            color: rgb(255, 0, 0);
+            z-index: 1000;
+        }
+
+
+        #perfil {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+            color: rgb(255, 0, 0);
+            letter-spacing: 0.5px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+
+        #posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .equipe {
+            text-align: center;
+            width: 220px;
+        }
+
+        .equipe button {
+            display: block;
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .equipe button img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+        }
+
+        .equipe p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        #but {
+            text-align: center;
+            margin: 24px;
+            color: rgb(255, 255, 255);
+        }
+
+        #but a button {
+            color: rgb(79, 79, 79);
+            border: 1px solid rgb(206, 154, 154);
+            padding: 8px 16px;
+            border-radius: 6px;
+            background-color: 0.2s ease, color 0.2s ease;
+        }
+
+        #but a button:hover {
+            background-color: rgb(223, 186, 186);
+            color: black;
+        }
+
+
+        .mclaren {
+            color: orange;
+        }
+
+        .ferrari {
+            color: rgb(255, 234, 0);
+        }
+
+        .ferrari span {
+            color: rgb(255, 0, 0);
+        }
+
+        .mercedes {
+            color: cyan;
+        }
+
+        .redbull {
+            color: rgba(255, 11, 11, 0.779);
+        }
+
+        .redbull span {
+            color: rgba(0, 4, 249, 0.639);
+        }
+
+        .willians {
+            color: rgba(0, 110, 255, 0.964);
+        }
+
+        .rb {
+            color: yellow;
+        }
+
+        .rb span {
+            color: white;
+        }
+
+        .souber {
+            color: lime;
+        }
+
+        .hass {
+            color: rgb(138, 51, 51);
+        }
+
+        .astom {
+            color: rgba(0, 247, 255, 0.379);
+        }
+
+        .alpine {
+            color: rgb(0, 110, 255);
+        }
+
+        .alpine span {
+            color: rgb(255, 0, 204);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section id="perfil">
+            <img src="perfil/presidas.jpg" alt="perfil">
+            <p>Usuário</p>
+        </section>
+        <h1>EQUIPES F1</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html
+                    ">Home</a></li>
+                <li><a href="spbre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="models">
+            <section id="posts">
+                <section class="equipe mclaren">
+                    <a href="mclaren.html"><button><img src="imagens/mclarn.jpg" alt="McLaren"></button></a>
+                    <p>&uparrow; McLaren &uparrow;</p>
+                </section>
+
+                <section class="equipe ferrari">
+                    <a href="ferrari.html"><button><img src="imagens/ferrari.jpg" alt="Ferrari"></button></a>
+                    <p><span>&uparrow;</span> Ferrari <span>&uparrow;</span></p>
+                </section>
+
+                <section class="equipe mercedes">
+                    <a href="mercedes.html"><button><img src="imagens/mercedes.jpg" alt="Mercedes"></button></a>
+                    <p>&uparrow; Mercedes &uparrow;</p>
+                </section>
+
+                <section class="equipe redbull">
+                    <a href="redbull.html"><button><img src="imagens/red bll.jpg" alt="Red Bull"></button></a>
+                    <p>&uparrow; Red <span>Bull &uparrow;</span></p>
+                </section>
+
+                <section class="equipe willians">
+                    <a href="willians.html"><button><img src="imagens/willians.png" alt="Williams"></button></a>
+                    <p>&uparrow; Williams &uparrow;</p>
+                </section>
+
+                <section class="equipe rb">
+                    <a href="rb.html"><button><img src="imagens/rbbbb.png" alt="RB"></button></a>
+                    <p>&uparrow; Racing <span>Bulls &uparrow;</span></p>
+                </section>
+
+                <section class="equipe souber">
+                    <a href="souber.html"><button><img src="imagens/souber.jpg" alt="Sauber"></button></a>
+                    <p>&uparrow; Sauber &uparrow;</p>
+                </section>
+
+                <section class="equipe hass">
+                    <a href="hass.html"><button><img src="imagens/hass.jpg" alt="Haas"></button></a>
+                    <p>&uparrow; Haas &uparrow;</p>
+                </section>
+
+                <section class="equipe astom">
+                    <a href="astommartin.html"><button><img src="imagens/aston.jpg" alt="Aston Martin"></button></a>
+                    <p>&uparrow; Aston Martin &uparrow;</p>
+                </section>
+
+                <section class="equipe alpine">
+                    <a href="alpine.html"><button><img src="imagens/alpine.jpg" alt="Alpine"></button></a>
+                    <p>&uparrow; Alp<span>ine &uparrow;</span></p>
+                </section>
+            </section>
+        </article>
+
+        <section id="but">
+            <a href="spbre.html"><button>Sobre essa página</button></a>
+        </section>
+    </main>
+</body>

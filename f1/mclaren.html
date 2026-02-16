@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McLaren</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(21, 21, 21);
+            font-family: Arial, sans-serif;
+        }
+
+     
+        header {
+            background-color: rgb(244, 137, 8);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px; 
+            z-index: 1000;
+        }
+
+        header img {
+            max-height: 50px;
+        }
+
+        header section#perfil {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header section#perfil img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+
+        header section#perfil p {
+            color: black;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+    
+        #aa {
+            position: fixed;
+            top: 80px; 
+            left: 0;
+            width: 220px; 
+            height: calc(100% - 80px);
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        #aa img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+
+        #aa ul {
+            list-style: none;
+        }
+
+        #aa li {
+            color: rgb(229, 94, 4);
+            font-size: 16px;
+            margin: 8px 0;
+        }
+
+  
+        main {
+            margin-left: 240px;
+            padding: 100px 20px 20px; 
+
+        #posts section {
+            margin-bottom: 20px;
+        }
+
+        #posts p {
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            margin: 10px 0;
+            background-color: rgb(73, 73, 73);
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            margin-bottom: 10px;
+            background-color: rgb(44, 44, 44);
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 22px;
+        }
+
+        h2 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            margin: 12px 0;
+            background-color: rgb(73, 73, 73);
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        #posts img {
+            width: 100%; 
+            max-width: 400px; 
+            height: auto; 
+            display: block;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section id="perfil">
+            <img src="perfil/estela.jpg" alt="Foto de perfil">
+            <p>Andrea Stella</p>
+        </section>
+
+        <img src="imagens/mclarn.jpg" alt="Logo McLaren">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- corrigido o nome do arquivo -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="aa">
+            <img src="imgs dos sites/mcl.png" alt="Logo McLaren">
+            <ul>
+                <li>Fundada em 1963 por Bruce McLaren</li>
+                <li>Sede: Woking, Inglaterra</li>
+                <li>Atual chefe da equipe: Andrea Stella</li>
+                <li>12 títulos de pilotos</li>
+                <li>10 títulos de construtores</li>
+            </ul>
+        </section>
+
+        <section id="posts">
+            <section id="p1">
+                <h1>Como surgiu a equipe?</h1>
+                <p>A equipe foi fundada em 1963 com o nome Bruce McLaren Motor Racing. Seu objetivo inicial era competir
+                    em categorias de automobilismo internacional, e a estreia na Fórmula 1 aconteceu em 1966. Nos
+                    primeiros anos, a equipe ainda buscava competitividade, desenvolvendo seus próprios carros e
+                    motores.</p>
+            </section>
+
+            <section id="p2">
+                <h1>Pilotos marcantes</h1>
+                <h2>Ayrton Senna
+                    <img src="imgs dos sites/senna.jpg" alt="Ayrton Senna">
+                </h2>
+                <h2>Alain Prost
+                    <img src="imgs dos sites/alain-prost.jpg" alt="Alain Prost">
+                </h2>
+                <h2>James Hunt
+                    <img src="imgs dos sites/hunt.webp" alt="James Hunt">
+                </h2>
+            </section>
+
+            <section id="p3">
+                <h1>Carros marcantes</h1>
+                <h2>McLaren MP4/4 (1988)
+                    <img src="imgs dos sites/mp44.jpg" alt="McLaren MP4/4">
+                </h2>
+                <h2>McLaren MP4/13 (1998)
+                    <img src="imgs dos sites/mp413.jpg" alt="McLaren MP4/13">
+                </h2>
+                <h2>McLaren MP4-23 (2008)
+                    <img src="imgs dos sites/mp423.jpg" alt="McLaren MP4-23">
+                </h2>
+            </section>
+
+            <section id="p4">
+                <h1>Curiosidade aleatória</h1>
+                <p>Em 1981, a McLaren lançou o MP4/1, o primeiro carro de F1 com monocoque de fibra de carbono. No
+                    começo, muitos duvidaram da segurança do material, mas ele se mostrou mais leve e resistente que o
+                    alumínio — e hoje todas as equipes usam essa tecnologia.</p>
+                  
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+código original d main page 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: rgb(72, 72, 72);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            flex-direction: row;
+            color: rgb(129, 0, 0);
+        }
+
+        header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+
+        }
+
+        #posts {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        #equipes button img {
+            width: 200px;
+            height: 150px;
+
+        }
+
+        body {
+            background-color: rgb(32, 32, 33);
+
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        #but {
+            text-align: center;
+            margin: 20px;
+            color: white;
+
+        }
+
+        .mclaren {
+            color: orange;
+            text-align: center;
+        }
+
+        .ferrari {
+            color: rgb(255, 234, 0);
+            text-align: center;
+
+            span {
+                color: rgb(255, 0, 0);
+            }
+        }
+
+        .mercedes {
+            color: rgb(0, 255, 255);
+            text-align: center;
+        }
+
+        .redbull {
+            color: rgba(255, 11, 11, 0.779);
+            text-align: center;
+
+            span {
+                color: rgba(0, 4, 249, 0.639);
+            }
+        }
+
+        .willians {
+            color: rgba(0, 110, 255, 0.964);
+            text-align: center;
+        }
+
+        .rb {
+            color: rgb(255, 247, 0);
+            text-align: center;
+
+            span {
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .souber {
+            color: rgb(30, 255, 0);
+            text-align: center;
+        }
+
+        .hass {
+            color: rgb(138, 51, 51);
+            text-align: center;
+        }
+
+        .astom {
+            color: rgba(0, 247, 255, 0.379);
+            text-align: center;
+        }
+
+        .alíne {
+            color: rgb(0, 110, 255);
+            text-align: center;
+
+            span {
+                color: rgb(255, 0, 204);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section id="perfil">
+            <img src="perfil/presidas.jpg" alt="">
+            <p>usuarios</p>
+        </section>
+        <h1>EQUIPES F1 </h1>
+       
+        <nav>
+            <ul>
+                <li><a href="indesx.html">home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="models">
+            <section id="posts">
+                <section id="equipes" class="mclaren">
+                    <a href="mclaren.html"><button><img src="imagens/mclarn.jpg" alt=""></button></a>
+                    <p>&uparrow; mclaren &uparrow;</p>
+                </section>
+                <section id="equipes" class="ferrari">
+                    <a href="ferrari.html"><button>[<img src="imagens/ferrari.jpg" alt=""></button></a>
+                    <p><span>&uparrow;</span> ferrari <span>&uparrow;</span></p>
+                </section>
+                <section id="equipes" class="mercedes">
+                    <a href="mercedes.html"><button><img src="imagens/mercedes.jpg" alt=""></button></a>
+                    <p>&uparrow; mercedes &uparrow;</p>
+                </section>
+                <section id="equipes" class="redbull">
+                    <a href="redbull.html"><button><img src="imagens/red bll.jpg" alt=""></button></a>
+                    <p>&uparrow; red<span>bull &uparrow; </span></p>
+                </section>
+                <section id="equipes" class="willians">
+                    <a href="willians.html"><button><img src="imagens/willians.png" alt=""></button></a>
+                    <p>&uparrow; willians &uparrow;</p>
+                </section>
+                <section id="equipes" class="rb">
+                    <a href="rb.html"><button><img src="imagens/rbbbb.png" alt=""></button></a>
+                    <p>&uparrow; raicing <span>bulls &uparrow;</span></p>
+                </section>
+                <section id="equipes" class="souber">
+                    <a href="souber.html"><button><img src="imagens/souber.jpg" alt=""></button></a>
+                    <p>&uparrow; souber &uparrow;</p>
+                </section>
+                <section id="equipes" class="hass">
+                    <a href="hass.html"><button><img src="imagens/hass.jpg" alt=""></button></a>
+                    <p>&uparrow; hass &uparrow; </p>
+                </section>
+                <section id="equipes" class="astom">
+                    <a href="astommartin.html"><button><img src="imagens/aston.jpg" alt=""></button></a>
+                    <p>&uparrow; aston martin &uparrow;</p>
+                </section>
+                <section id="equipes" class="alíne">
+                    <a href="alpine.html"><button><img src="imagens/alpine.jpg" alt=""></button></a>
+                    <p>&uparrow; alp<span>pine &uparrow;</span></p>
+                </section>
+
+
+            </section>
+        </article>
+        <section id="but">
+            <a href="spbre.html"><button>sobre essa pagina </button></a>
+
+        </section>
+
+
+    </main>
+</body>
+
+</html>
